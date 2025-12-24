@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: hello-world
+    - name:c9907b6eb9bef58c00de3ca0b0ef488316a4be705eea8e1f3c671b016044c148
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
